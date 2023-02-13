@@ -1,0 +1,82 @@
+.title {
+  color: #ffffff;
+  text-align: center;
+}
+
+#wrapper-img {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  background-color: #e00024;
+}
+#logo-img {
+  width: 200px;
+}
+@font-face {
+  font-family: "kg";
+  src: url("KGWhattheTeacherWants.ttf");
+}
+body {
+  font-weight: normal;
+  margin: 0;
+  background-image: url("dna-monica.png");
+  font-family: kg;
+  letter-spacing: 2px;
+}
+#conta {
+  background-color: aqua;
+  padding-bottom: 50px;
+}
+#teste {
+  background-color: aqua;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+#container {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  font-size: 30px;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #e00024;
+  display: flex;
+  margin-left: 35%;
+  margin-right: 35%;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column; /**/
+  text-align: center;
+  margin-top: 40px;
+}
+.wrapper-results {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#contagem {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: aqua;
+  padding-bottom: 45px;
+  border: 1px solid black;
+}
+#recorde {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: aqua;
+    padding-bottom: 45px;
+    border: 1px solid black;
+}
+
+/**{
+    border: 1px solid red;
+    margin: 5px;
+}*/
